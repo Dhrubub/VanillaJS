@@ -1,0 +1,28 @@
+.board {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border: 1px solid black;
+	display: flex;
+	cursor: pointer;
+}
+
+.col p {
+	margin: auto;
+	font-size: 64px;
+	translate: 0% -10%;
+}
+
+.hide {
+	display: none;
+}
